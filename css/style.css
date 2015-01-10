@@ -13,6 +13,7 @@ body {
     background-color: #111111;
     font-family: 'Montserrat', sans-serif;
     padding: 0px 0px;
+    /*height:100%;*/
 }
 p {
     font-style: normal;
@@ -129,6 +130,7 @@ a:active {
     background-attachment: fixed;
     background-position: center center;
     background-size: auto auto, cover;
+    min-height: 750px;
 }
 .bg1 {
     /* IE10 Consumer Preview */
@@ -519,9 +521,12 @@ a:active {
 .small {
     display: block;
     position: absolute;
-    bottom: 0;
-    right: 15;
-    text-align: right
+    bottom: 5px;
+    right: 5px;
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    color: #3b3f41;
 }
 .small a {
     color: #3b3f41;
